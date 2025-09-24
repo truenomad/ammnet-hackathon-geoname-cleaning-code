@@ -66,7 +66,7 @@ sntutils::calculate_match_stats(
 #### Step 4.1: Use the shapefile as the reference ------------------------------
 
 # path to cache
-cache_path <- here::here("01_data/cache/geoname_cleaning_nga_new.rds")
+cache_path <- here::here("01_data/cache/geoname_cleaning_nga.rds")
 unmatched_path <- here::here("01_data/cache/nga_unmatched_adm2.rds")
 
 # 2) Run interactive, hierarchy-based matching
